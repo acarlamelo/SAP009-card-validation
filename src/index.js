@@ -1,3 +1,5 @@
-import validator from './validator.js';
+import validator from './validator.js'; 
 
-console.log(validator);
+let creditCardNumber="0123456789"; 
+
+console.log(validator.isValid(creditCardNumber));
