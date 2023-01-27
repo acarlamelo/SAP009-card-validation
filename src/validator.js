@@ -20,7 +20,11 @@ const validator = {
           (reversed[index]) = (reversed[index] -9)
           console.log(reversed[index]) 
           somaMaiorQueNove = somaMaiorQueNove + Number(reversed[index]) } 
-          //if(reversed[index] <= 9) { 
+          
+          //if(reversed[index] <= 9) {
+            //(reversed[index]) + (reversed[index])
+           // console.log()
+
             
           };
         };
