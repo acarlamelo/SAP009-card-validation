@@ -16,15 +16,16 @@
     <div>
       <h2>Valide o seu cartão</h2>
       <p>Digite o número do seu cartão de crédito para validar</p>
-      <input type="text" id="entradanumero"> 
+      <input type="text" id="entradanumero" pattern="[0,9]"
+        onkeypress="return event.charCode >=48 && event.charCode <=57" placeholder="xxxx.xxxx.xxxx.xxxx" maxlength="16"> 
       <button id="validar">Validar</button>
       <!-- tag vazia para validar ou nao cartao -->
-      <span id="mensagem"> </span> 
+      <span id="mensagem"> </span>
     </div>
   </main>
   <footer>
     <p>Projeto realizado por Carla Melo</p>
-    </footer>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 

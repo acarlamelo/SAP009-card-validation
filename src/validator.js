@@ -29,7 +29,6 @@ const validator = {
     } else {
       return false
     }
-
   },
 
   maskify: function (number) {
