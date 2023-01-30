@@ -8,16 +8,17 @@
 </head>
 
 <body>
-  <header>
-    <img src="img/logodoterra.png" alt="Logo doTerra">
+  <header class="cabecalho">
+    <img src="img/logodoterra.png" alt="Logo doTerra"  class="img1">
     <h1>EssentialsLab</h1>
+
   </header>
   <main>
     <div>
       <h2>Valide o seu cartão</h2>
       <p>Digite o número do seu cartão de crédito para validar</p>
-      <input type="text" id="entradanumero" pattern="[0,9]"
-        onkeypress="return event.charCode >=48 && event.charCode <=57" placeholder="xxxx.xxxx.xxxx.xxxx" maxlength="16"> 
+      <input type="text" id="entradanumero" attern="[0,9]"
+      onkeypress="return event.keyCode >=48 && event.keyCode <=57" placeholder="xxxx.xxxx.xxxx.xxxx" maxlength="16"> 
       <button id="validar">Validar</button>
       <!-- tag vazia para validar ou nao cartao -->
       <span id="mensagem"> </span>

@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabecalho {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    }
+.img1 {
+    height: 50px;
+}
