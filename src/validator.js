@@ -2,13 +2,13 @@ const validator = {
 
   isValid: function (creditCardNumber) {
 
-    let cardNumberArray = Array.from(creditCardNumber)
+    const cardNumberArray = Array.from(creditCardNumber)
     const reversed = cardNumberArray.reverse()
     let totalSum = 0
 
     for (let index = 0; index < reversed.length; index++) {
 
-      if (index % 2 != 0) {
+      if (index % 2 !== 0) {
         reversed[index] = (Number(reversed[index])) * 2
 
         if (reversed[index] > 9) {
@@ -18,7 +18,7 @@ const validator = {
 
         } else {
           totalSum = totalSum + Number(reversed[index])
-        };
+        }
 
       } else {
         totalSum = totalSum + Number(reversed[index])
