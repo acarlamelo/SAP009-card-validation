@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cartão de crédito válido</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header class="cabecalho">
+    <img src="img/logodoterra.png" alt="Logo doTerra" class="img1">
+    <h1>EssentialsLab</h1>
+
+  </header>
+  <main class="main">
+    <div class="card">
+      <div class="header-card">
+        <h2>Valide o seu cartão de crédito</h2>
+        <img src="img/logolab.jpg" alt="lab" class="img2">
+      </div>
+      <div class="main-card">
+        <p>Digite o nº do seu cartão</p>
+        <input type="text" id="entradanumero" attern="[0,9]"
+          onkeypress="return event.keyCode >= 48 && event.keyCode <= 57 || event.keyCode == 35" 
+          placeholder="####.####.####.####" maxlength="16">
+        <button class="buttons" id="validar">Validar</button>
+      </div>
+      <span id="mensagem"> </span>
+    </div>
+    <p class="incentive"> Parabéns!!!!
+       Após validar o seu cartão, voçê irá desfrutar de todos os benefios do seu EssentialsLab. Os nossos cartões podem
+      ser utilizados durante o ano todo sem restrições e dão-lhe acesso as melhores condições, 
+      vantagens e promoções exclusivas. Você está participando do seleto grupo de pessoas que optaram
+       por ter uma vida saudável e de forma natural. 
+    </p>
+  </main>
+  <footer>
+    <p>Projeto realizado por Carla Melo</p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
