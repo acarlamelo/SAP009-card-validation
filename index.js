@@ -17,10 +17,11 @@ function validandmask() {
 
   } else {
 
-    mensagemResultado.textContent = "Cartão Inválido," + "Verifique os números digitados"
+    mensagemResultado.textContent =  "Cartão Inválido," + "Verifique os números digitados"
 
   }
   document.getElementById("entradanumero").value = numberMask;
+
 }
 
 botao.addEventListener("click", validandmask);
