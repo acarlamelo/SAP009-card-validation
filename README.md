@@ -25,6 +25,8 @@ O usuário insere o número que deseja validar. Usando apenas caracteres numéri
 
 💻 Acesso ao projeto -> https://acarlamelo.github.io/SAP009-card-validation/
 
+Projeto realizado por acarlamelo
+
 
 
 
