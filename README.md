@@ -15,11 +15,8 @@ Esse algoritmo é simples. Obtemos o inverso do número a ser verificado (que co
 🎨 O projeto contém
 
  -> Uma interface que permite ao usuário:
-
-    Inserir o número que deseja validar. Usando apenas caracteres numéricos (dígitos) no cartão para validar [0-9].
-    Constatar se o resultado é válido ou não.
-    Ocultar todos os dígitos do número do cartão, menos os últimos 4 caracteres.
-    Não pode deixar um campo vazio e nem inserir letras(apenas números).
+ 
+O usuário insere o número que deseja validar. Usando apenas caracteres numéricos (dígitos) no cartão para validar [0-9] e retorna ao mesmo se o número é válido ou não. Oculta todos os dígitos do número do cartão, menos os últimos 4 caracteres e não pode deixar um campo vazio ou inserir letras(apenas números).
 
  -> Testes unitários dos métodos. Os métodos validator (isValid e maskify) são cobertos por testes unitários.
     Os principais usuários do produto são pessoas que pretendem ter um cartão fidelidade para adquirir óleos essenciais 
